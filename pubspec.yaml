@@ -1,6 +1,6 @@
 name: safe_debouncer
 description: A safe, async-aware debouncer for Dart & Flutter that prevents overlapping executions and timer leaks.
-version: 0.1.0
+version: 0.1.1
 homepage: https://github.com/priyeshchowta/safe_debouncer
 repository: https://github.com/priyeshchowta/safe_debouncer
 issue_tracker: https://github.com/priyeshchowta/safe_debouncer/issues

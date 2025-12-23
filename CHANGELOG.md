@@ -6,6 +6,13 @@ This project follows semantic versioning.
 
 ---
 
+## 0.1.1
+
+### Fixed
+- Code formatting to match Dart formatter.
+- Minor documentation and example improvements.
+
+
 ## 0.1.0 — Initial Release
 
 ### Added
