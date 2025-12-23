@@ -49,8 +49,7 @@ class SafeDebouncerMap {
   SafeDebouncerMap({required this.delay});
 
   void run(String key, DebounceCallback callback) {
-    _map.putIfAbsent(key, () => SafeDebouncer(delay: delay))
-        .run(callback);
+    _map.putIfAbsent(key, () => SafeDebouncer(delay: delay)).run(callback);
   }
 
   void cancel(String key) {
